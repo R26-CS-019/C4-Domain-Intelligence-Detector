@@ -1,0 +1,122 @@
+prepared_feature,base_feature,feature_group,split_importance,gain_importance,split_percentage,gain_percentage,gain_rank
+numeric__dns_mx_count,dns_mx_count,DNS,259.0,309862.66144776344,0.8633333333333333,13.33363647953936,1
+numeric__domain_age_days,domain_age_days,RDAP / WHOIS,2748.0,254184.20945954323,9.16,10.937748459066887,2
+numeric__rdap_status_count,rdap_status_count,RDAP / WHOIS,1200.0,208513.18613183498,4.0,8.97248804383973,3
+numeric__dns_has_mx,dns_has_mx,DNS,23.0,150469.17533111572,0.07666666666666667,6.4748081484460815,4
+numeric__rdap_nameserver_count,rdap_nameserver_count,RDAP / WHOIS,976.0,126873.80776810646,3.253333333333333,5.459480737856094,5
+numeric__registration_period_days,registration_period_days,RDAP / WHOIS,2315.0,121390.29882669449,7.716666666666666,5.223520991962616,6
+numeric__tls_certificate_validity_days,tls_certificate_validity_days,TLS,1083.0,99099.48582553864,3.61,4.264329600518034,7
+numeric__tls_certificate_days_remaining,tls_certificate_days_remaining,TLS,1790.0,84438.21050560474,5.966666666666667,3.6334432764638005,8
+numeric__days_since_last_change,days_since_last_change,RDAP / WHOIS,2394.0,71821.91465079784,7.9799999999999995,3.090554043342458,9
+numeric__days_until_expiration,days_until_expiration,RDAP / WHOIS,2343.0,70497.27542698383,7.8100000000000005,3.033553765237467,10
+numeric__rdap_registrant_count,rdap_registrant_count,RDAP / WHOIS,228.0,66858.42358469963,0.76,2.8769710797302004,11
+numeric__ip_average_rtt,ip_average_rtt,IP / Hosting,2071.0,52181.40033400059,6.903333333333333,2.2454071097048582,12
+numeric__tls_certificate_age_days,tls_certificate_age_days,TLS,1742.0,52065.53243017197,5.806666666666667,2.2404212217566988,13
+numeric__dns_ns_related_ip_count,dns_ns_related_ip_count,DNS,721.0,45306.633446097374,2.4033333333333333,1.9495804291471284,14
+numeric__dns_ns_count,dns_ns_count,DNS,380.0,33637.44820821285,1.2666666666666666,1.4474461182644052,15
+categorical__tls_protocol_TLSv1.2,tls_protocol,TLS,134.0,33382.427117943764,0.44666666666666666,1.4364723581592787,16
+numeric__dns_mx_related_ip_count,dns_mx_related_ip_count,DNS,493.0,33096.396117687225,1.6433333333333335,1.424164216992865,17
+numeric__tls_certificate_count,tls_certificate_count,TLS,563.0,31523.908261179924,1.8766666666666667,1.3564988153300932,18
+numeric__rdap_has_last_changed_date,rdap_has_last_changed_date,RDAP / WHOIS,348.0,30259.649715662003,1.16,1.3020967657790892,19
+numeric__ip_ipv4_count,ip_ipv4_count,IP / Hosting,286.0,27638.35899758339,0.9533333333333333,1.1893005438053004,20
+numeric__rdap_technical_count,rdap_technical_count,RDAP / WHOIS,253.0,26466.525913357735,0.8433333333333333,1.1388756352772482,21
+numeric__missingindicator_registration_period_days,registration_period_days,RDAP / WHOIS,73.0,26055.995364904404,0.24333333333333335,1.1212101796484635,22
+numeric__rdap_has_registration_date,rdap_has_registration_date,RDAP / WHOIS,83.0,25016.931780576706,0.27666666666666667,1.0764984481742008,23
+numeric__ip_alive_count,ip_alive_count,IP / Hosting,287.0,22794.072489500046,0.9566666666666666,0.9808470470215025,24
+numeric__rdap_has_registrant,rdap_has_registrant,RDAP / WHOIS,49.0,18567.428549289703,0.16333333333333333,0.7989712005936064,25
+numeric__country_count,country_count,IP / Hosting,432.0,17448.175675153732,1.44,0.7508088602758638,26
+numeric__tls_certificate_expired,tls_certificate_expired,TLS,54.0,16738.792587041855,0.18,0.7202835424546608,27
+numeric__dns_txt_count,dns_txt_count,DNS,494.0,16465.747943878174,1.6466666666666667,0.7085342145504214,28
+numeric__rdap_admin_count,rdap_admin_count,RDAP / WHOIS,209.0,15309.276277780533,0.6966666666666667,0.6587703200476542,29
+categorical__tls_cipher_TLS_AES_128_GCM_SHA256,tls_cipher,TLS,190.0,12532.912331938744,0.6333333333333333,0.5393011738917706,30
+numeric__ip_record_count,ip_record_count,IP / Hosting,208.0,12108.135016918182,0.6933333333333334,0.5210226685798496,31
+numeric__dns_has_soa,dns_has_soa,DNS,108.0,11429.760249614716,0.36,0.4918316634362971,32
+numeric__rdap_registrar_count,rdap_registrar_count,RDAP / WHOIS,139.0,10748.349292516708,0.4633333333333333,0.46251000863391145,33
+numeric__ip_alive_ratio,ip_alive_ratio,IP / Hosting,111.0,9703.695001244545,0.37,0.4175577045985251,34
+numeric__rdap_has_whois_server,rdap_has_whois_server,RDAP / WHOIS,150.0,9028.08876979351,0.5,0.38848583175205037,35
+numeric__ip_from_cname_count,ip_from_cname_count,IP / Hosting,228.0,8597.47033572197,0.76,0.36995597844713274,36
+numeric__rdap_has_expiration_date,rdap_has_expiration_date,RDAP / WHOIS,94.0,8570.937165856361,0.31333333333333335,0.3688142350696476,37
+numeric__rdap_dnssec_information_present,rdap_dnssec_information_present,RDAP / WHOIS,110.0,8390.337995886803,0.36666666666666664,0.3610429093163942,38
+numeric__rdap_abuse_count,rdap_abuse_count,RDAP / WHOIS,109.0,8371.560203313828,0.36333333333333334,0.3602348859847465,39
+numeric__ip_ipv6_count,ip_ipv6_count,IP / Hosting,173.0,8286.803463935852,0.5766666666666667,0.35658773615786266,40
+numeric__rdap_has_handle,rdap_has_handle,RDAP / WHOIS,184.0,7475.34258377552,0.6133333333333334,0.32166992985337867,41
+numeric__dns_a_count,dns_a_count,DNS,281.0,7198.741161346436,0.9366666666666668,0.30976755091181435,42
+numeric__tls_non_root_certificate_count,tls_non_root_certificate_count,TLS,111.0,6990.7641360759735,0.37,0.30081813429577015,43
+numeric__rir_count,rir_count,IP / Hosting,77.0,6218.021787047386,0.25666666666666665,0.26756641714420404,44
+numeric__dns_unique_ip_count,dns_unique_ip_count,DNS,170.0,6033.397445201874,0.5666666666666667,0.2596218850474988,45
+numeric__asn_count,asn_count,IP / Hosting,98.0,5965.6896986961365,0.32666666666666666,0.2567083669277672,46
+numeric__dns_has_zone_soa,dns_has_zone_soa,DNS,185.0,5959.692278146744,0.6166666666666667,0.25645029315712675,47
+numeric__ip_rdap_available_count,ip_rdap_available_count,IP / Hosting,232.0,5515.956675410271,0.7733333333333333,0.23735599766417062,48
+numeric__dns_has_ns,dns_has_ns,DNS,28.0,5225.19495010376,0.09333333333333334,0.22484428964072983,49
+numeric__dns_mx_min_priority,dns_mx_min_priority,DNS,287.0,4788.733242630959,0.9566666666666666,0.20606299563941163,50
+numeric__missingindicator_days_since_last_change,days_since_last_change,RDAP / WHOIS,62.0,4611.452520608902,0.20666666666666667,0.19843446533754153,51
+numeric__tls_extension_count,tls_extension_count,TLS,250.0,4444.134898662567,0.8333333333333334,0.19123465514669827,52
+numeric__country_code_count,country_code_count,IP / Hosting,135.0,4442.465646862984,0.44999999999999996,0.19116282591569486,53
+numeric__dns_aaaa_count,dns_aaaa_count,DNS,151.0,4299.157127022743,0.5033333333333333,0.18499614646150464,54
+numeric__ip_from_a_count,ip_from_a_count,IP / Hosting,132.0,3153.577048420906,0.44,0.1357009256210484,55
+categorical__tls_cipher_TLS_AES_256_GCM_SHA384,tls_cipher,TLS,125.0,3144.47398686409,0.4166666666666667,0.13530921365071177,56
+numeric__dns_mx_mean_priority,dns_mx_mean_priority,DNS,281.0,3007.30140542984,0.9366666666666668,0.1294065685005712,57
+numeric__dns_has_txt,dns_has_txt,DNS,60.0,2855.354763865471,0.2,0.1228681838063969,58
+numeric__rdap_has_abuse_contact,rdap_has_abuse_contact,RDAP / WHOIS,19.0,2715.3876423835754,0.06333333333333332,0.11684528737800058,59
+numeric__dns_has_cname,dns_has_cname,DNS,111.0,2715.228264808655,0.37,0.11683842923434087,60
+numeric__tls_available,tls_available,TLS,64.0,2674.2621886730194,0.21333333333333335,0.11507562643443729,61
+categorical__tls_protocol_TLSv1.3,tls_protocol,TLS,105.0,2662.372855424881,0.35000000000000003,0.11456401897978596,62
+numeric__rdap_available,rdap_available,RDAP / WHOIS,65.0,2636.885223865509,0.21666666666666665,0.11346726594620242,63
+numeric__tls_critical_extension_count,tls_critical_extension_count,TLS,160.0,2630.1140501499176,0.5333333333333333,0.11317589696214454,64
+numeric__unique_ip_count,unique_ip_count,IP / Hosting,41.0,2249.9712315797806,0.13666666666666666,0.09681804949049566,65
+categorical__tls_cipher_ECDHE-RSA-AES128-GCM-SHA256,tls_cipher,TLS,86.0,2106.7232518196106,0.2866666666666667,0.09065397512404441,66
+numeric__asn_organization_count,asn_organization_count,Other,21.0,2063.215838909149,0.06999999999999999,0.08878181658386126,67
+categorical__tls_cipher_ECDHE-RSA-AES256-GCM-SHA384,tls_cipher,TLS,103.0,1833.0926518440247,0.3433333333333333,0.07887943303269994,68
+numeric__ip_from_aaaa_count,ip_from_aaaa_count,IP / Hosting,57.0,1798.7463346719742,0.19,0.07740148371979028,69
+numeric__dnssec_information_present,dnssec_information_present,Other,62.0,1199.6917916536331,0.20666666666666667,0.051623690839864095,70
+numeric__dns_mx_max_priority,dns_mx_max_priority,DNS,163.0,1180.2627345323563,0.5433333333333333,0.05078764307733307,71
+numeric__ip_data_available,ip_data_available,IP / Hosting,46.0,976.6351838111877,0.15333333333333335,0.0420253878064032,72
+numeric__dns_ipv4_count,dns_ipv4_count,DNS,43.0,913.5770721435547,0.14333333333333334,0.039311947167463356,73
+numeric__dns_ipv6_count,dns_ipv6_count,DNS,18.0,847.7661039829254,0.06,0.03648004892673809,74
+categorical__tls_cipher_TLS_CHACHA20_POLY1305_SHA256,tls_cipher,TLS,44.0,770.3867944478989,0.14666666666666667,0.03315035576668715,75
+numeric__rdap_has_name,rdap_has_name,RDAP / WHOIS,20.0,648.4128756523132,0.06666666666666667,0.02790172114383066,76
+numeric__rdap_has_registrar,rdap_has_registrar,RDAP / WHOIS,9.0,616.2173914909363,0.03,0.02651632388400968,77
+numeric__missingindicator_days_until_expiration,days_until_expiration,RDAP / WHOIS,16.0,448.5127115249634,0.05333333333333334,0.019299858279099313,78
+numeric__dns_has_a,dns_has_a,DNS,26.0,444.6249408721924,0.08666666666666667,0.019132564419433656,79
+categorical__tls_cipher_ECDHE-RSA-CHACHA20-POLY1305,tls_cipher,TLS,21.0,424.7265930175781,0.06999999999999999,0.01827632270383871,80
+numeric__missingindicator_domain_age_days,domain_age_days,RDAP / WHOIS,16.0,413.3039174079895,0.05333333333333334,0.017784795898090833,81
+numeric__tls_has_common_name,tls_has_common_name,TLS,14.0,300.437623500824,0.04666666666666667,0.012928069609355032,82
+categorical__tls_cipher_ECDHE-RSA-AES256-SHA384,tls_cipher,TLS,27.0,211.01720881462097,0.09,0.009080238129096188,83
+numeric__dns_source_count,dns_source_count,DNS,16.0,197.15344858169556,0.05333333333333334,0.008483669512788462,84
+numeric__tls_root_certificate_count,tls_root_certificate_count,TLS,4.0,196.74380493164062,0.013333333333333334,0.008466042221102319,85
+categorical__tls_cipher_ECDHE-ECDSA-AES256-GCM-SHA384,tls_cipher,TLS,23.0,185.82708835601807,0.07666666666666667,0.00799628723452401,86
+numeric__missingindicator_dns_mx_min_priority,dns_mx_min_priority,DNS,13.0,177.22592759132385,0.043333333333333335,0.007626172453986495,87
+numeric__dns_has_aaaa,dns_has_aaaa,DNS,14.0,161.64858162403107,0.04666666666666667,0.0069558668822423675,88
+categorical__tls_cipher_ECDHE-ECDSA-AES128-GCM-SHA256,tls_cipher,TLS,18.0,151.89964962005615,0.06,0.0065363625934797085,89
+numeric__missingindicator_ip_alive_ratio,ip_alive_ratio,IP / Hosting,6.0,99.4884705543518,0.02,0.004281067922411526,90
+categorical__tls_cipher_ECDHE-ECDSA-CHACHA20-POLY1305,tls_cipher,TLS,10.0,50.886019229888916,0.03333333333333333,0.0021896658317335496,91
+numeric__tls_has_leaf_certificate,tls_has_leaf_certificate,TLS,4.0,45.56083941459656,0.013333333333333334,0.0019605191139149564,92
+categorical__tls_cipher_AES128-SHA256,tls_cipher,TLS,11.0,24.132089853286743,0.03666666666666667,0.0010384229971172226,93
+numeric__dns_ttl_information_count,dns_ttl_information_count,DNS,3.0,22.697739601135254,0.01,0.0009767017663075282,94
+categorical__tls_cipher_AES256-SHA,tls_cipher,TLS,10.0,18.95636010169983,0.03333333333333333,0.0008157072342642324,95
+numeric__missingindicator_dns_mx_max_priority,dns_mx_max_priority,DNS,2.0,9.738560199737549,0.006666666666666667,0.0004190579817868789,96
+categorical__tls_cipher_missing,tls_cipher,TLS,2.0,8.557460069656372,0.006666666666666667,0.00036823430491384623,97
+categorical__tls_cipher_AES128-SHA,tls_cipher,TLS,2.0,6.935400009155273,0.006666666666666667,0.0002984357719326555,98
+numeric__missingindicator_ip_average_rtt,ip_average_rtt,IP / Hosting,1.0,6.083700180053711,0.0033333333333333335,0.0002617864516890789,99
+categorical__tls_protocol_missing,tls_protocol,TLS,1.0,3.890160083770752,0.0033333333333333335,0.00016739667877976262,100
+numeric__rdap_description_count,rdap_description_count,RDAP / WHOIS,2.0,3.6918301582336426,0.006666666666666667,0.00015886238452897974,101
+numeric__missingindicator_tls_certificate_age_days,tls_certificate_age_days,TLS,1.0,3.583400011062622,0.0033333333333333335,0.00015419654915841167,102
+numeric__tls_has_country,tls_has_country,TLS,0.0,0.0,0.0,0.0,103
+numeric__tls_has_organization,tls_has_organization,TLS,0.0,0.0,0.0,0.0,104
+numeric__missingindicator_dns_mx_mean_priority,dns_mx_mean_priority,DNS,0.0,0.0,0.0,0.0,105
+numeric__missingindicator_tls_certificate_expired,tls_certificate_expired,TLS,0.0,0.0,0.0,0.0,106
+numeric__missingindicator_tls_certificate_days_remaining,tls_certificate_days_remaining,TLS,0.0,0.0,0.0,0.0,107
+numeric__missingindicator_tls_certificate_validity_days,tls_certificate_validity_days,TLS,0.0,0.0,0.0,0.0,108
+categorical__tls_cipher_DHE-RSA-AES128-GCM-SHA256,tls_cipher,TLS,0.0,0.0,0.0,0.0,109
+categorical__tls_cipher_AES256-SHA256,tls_cipher,TLS,0.0,0.0,0.0,0.0,110
+categorical__tls_cipher_AES256-GCM-SHA384,tls_cipher,TLS,0.0,0.0,0.0,0.0,111
+numeric__missingindicator_tls_extension_count,tls_extension_count,TLS,0.0,0.0,0.0,0.0,112
+categorical__tls_cipher_AES128-GCM-SHA256,tls_cipher,TLS,0.0,0.0,0.0,0.0,113
+categorical__tls_cipher_DHE-RSA-AES256-SHA256,tls_cipher,TLS,0.0,0.0,0.0,0.0,114
+categorical__tls_cipher_DHE-RSA-AES256-SHA,tls_cipher,TLS,0.0,0.0,0.0,0.0,115
+categorical__tls_cipher_DHE-RSA-AES256-GCM-SHA384,tls_cipher,TLS,0.0,0.0,0.0,0.0,116
+categorical__tls_cipher_ECDHE-ECDSA-AES256-SHA384,tls_cipher,TLS,0.0,0.0,0.0,0.0,117
+categorical__tls_cipher_ECDHE-RSA-AES128-SHA256,tls_cipher,TLS,0.0,0.0,0.0,0.0,118
+categorical__tls_cipher_ECDHE-RSA-AES128-SHA,tls_cipher,TLS,0.0,0.0,0.0,0.0,119
+categorical__tls_cipher_DHE-RSA-CHACHA20-POLY1305,tls_cipher,TLS,0.0,0.0,0.0,0.0,120
+categorical__tls_cipher_ECDHE-RSA-AES256-SHA,tls_cipher,TLS,0.0,0.0,0.0,0.0,121

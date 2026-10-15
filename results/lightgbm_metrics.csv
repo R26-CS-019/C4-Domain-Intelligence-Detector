@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,roc_auc,specificity,false_positive_rate,false_negative_rate,true_negative,false_positive,false_negative,true_positive,training_time_seconds,prediction_time_seconds
+LightGBM,0.9528052303481831,0.9812546459390453,0.9232476813136689,0.9513677811550152,0.9911451291422004,0.9823627793826972,0.01763722061730272,0.07675231868633116,32305,580,2524,30361,10.165141582489014,1.4291071891784668

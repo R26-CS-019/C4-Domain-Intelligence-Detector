@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "action": "Move four unused source files into a recoverable archive.",
+  "project_root": "D:\\SLIIT\\final reserch chamath",
+  "archive_root": "D:\\SLIIT\\final reserch chamath\\archive\\research_scripts_20261014",
+  "active_model": "TUNED 80",
+  "files": [
+    {
+      "source": "D:\\SLIIT\\final reserch chamath\\src\\11_train_40_feature_lightgbm.py",
+      "destination": "D:\\SLIIT\\final reserch chamath\\archive\\research_scripts_20261014\\src\\11_train_40_feature_lightgbm.py",
+      "original_relative_path": "src/11_train_40_feature_lightgbm.py",
+      "reason": "Trains the unused Tuned 40 comparison model.",
+      "sha256": "f980e29b48bcc0e463495f32885c9bb806937c00a209709a9253f2e22427807c",
+      "bytes": 33976
+    },
+    {
+      "source": "D:\\SLIIT\\final reserch chamath\\src\\09_calibrate_lightgbm.py",
+      "destination": "D:\\SLIIT\\final reserch chamath\\archive\\research_scripts_20261014\\src\\09_calibrate_lightgbm.py",
+      "original_relative_path": "src/09_calibrate_lightgbm.py",
+      "reason": "Calibrates the Original 80 model, not the active Tuned 80 model.",
+      "sha256": "782e678a057890caa01dc9db10fe93410061e0214998ade2ad6b3e7a92ca9576",
+      "bytes": 16601
+    },
+    {
+      "source": "D:\\SLIIT\\final reserch chamath\\src\\12_rdap_controlled_audit.py",
+      "destination": "D:\\SLIIT\\final reserch chamath\\archive\\research_scripts_20261014\\src\\12_rdap_controlled_audit.py",
+      "original_relative_path": "src/12_rdap_controlled_audit.py",
+      "reason": "Completed historical three-model RDAP diagnostic; its saved evidence remains in results.",
+      "sha256": "c01b5ab1e6539e5bfa3a08f1391dd1e45a7f9cd13dbb1d3c167de1cf1828c394",
+      "bytes": 3126
+    },
+    {
+      "source": "D:\\SLIIT\\final reserch chamath\\src\\08_test_domain_backup.py",
+      "destination": "D:\\SLIIT\\final reserch chamath\\archive\\research_scripts_20261014\\src\\08_test_domain_backup.py",
+      "original_relative_path": "src/08_test_domain_backup.py",
+      "reason": "Legacy duplicate of the live domain-testing script.",
+      "sha256": "75e2b13549126f48da8cd39cdf9c2bdc86c9321d037e77d8ce587ec2a18225b4",
+      "bytes": 44046
+    }
+  ],
+  "archived_files_byte_identical": true,
+  "saved_model_checksums_unchanged": true
+}

@@ -1,0 +1,32 @@
+{
+    "model": "LightGBM",
+    "test_samples": 65770,
+    "metrics": {
+        "accuracy": 0.9528052303481831,
+        "precision": 0.9812546459390453,
+        "recall": 0.9232476813136689,
+        "f1_score": 0.9513677811550152,
+        "roc_auc": 0.9911451291422004,
+        "pr_auc": 0.9920947437130193,
+        "specificity": 0.9823627793826972,
+        "false_positive_rate": 0.01763722061730272,
+        "false_negative_rate": 0.07675231868633116,
+        "true_negative": 32305,
+        "false_positive": 580,
+        "false_negative": 2524,
+        "true_positive": 30361
+    },
+    "default_threshold": 0.5,
+    "best_threshold_by_f1": 0.45,
+    "best_threshold_f1_score": 0.953372252643647,
+    "best_threshold_precision": 0.9459378554750644,
+    "best_threshold_recall": 0.9609244336323551,
+    "plots": {
+        "confusion_matrix": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_confusion_matrix.png",
+        "roc_curve": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_roc_curve.png",
+        "precision_recall_curve": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_precision_recall_curve.png",
+        "probability_distribution": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_probability_distribution.png",
+        "feature_importance": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_top20_feature_importance.png",
+        "metric_summary": "D:\\SLIIT\\final reserch chamath\\results\\plots\\lightgbm_metric_summary.png"
+    }
+}

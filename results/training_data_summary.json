@@ -1,0 +1,45 @@
+{
+    "random_state": 42,
+    "test_size": 0.2,
+    "original_rows": 625813,
+    "rows_after_duplicate_removal": 625813,
+    "balanced_total_rows": 328850,
+    "balanced_benign": 164425,
+    "balanced_phishing": 164425,
+    "training_rows": 263080,
+    "training_benign": 131540,
+    "training_phishing": 131540,
+    "testing_rows": 65770,
+    "testing_benign": 32885,
+    "testing_phishing": 32885,
+    "raw_numeric_features": 78,
+    "raw_categorical_features": 2,
+    "final_prepared_features": 121,
+    "X_train_shape": [
+        263080,
+        121
+    ],
+    "X_test_shape": [
+        65770,
+        121
+    ],
+    "balancing_method": "Random undersampling",
+    "samples_per_class": 164425,
+    "split_method": "Stratified 80/20 split",
+    "numeric_imputation": "Median",
+    "missing_value_indicators": true,
+    "numeric_scaling": "RobustScaler",
+    "categorical_imputation": "missing category",
+    "categorical_encoding": "OneHotEncoder",
+    "removed_constant_columns": [
+        "dns_available",
+        "rdap_noc_count",
+        "ip_from_mx_count",
+        "ip_from_ns_count"
+    ],
+    "removed_identifier_columns": [
+        "domain_name",
+        "source",
+        "class_name"
+    ]
+}

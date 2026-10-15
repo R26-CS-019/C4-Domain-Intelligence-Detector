@@ -1,0 +1,47 @@
+feature,issue,count,percentage
+domain_age_days,negative domain age,0,0.0
+registration_period_days,negative registration period,0,0.0
+tls_certificate_validity_days,negative certificate validity,0,0.0
+ip_alive_ratio,alive ratio outside 0-1,0,0.0
+dns_a_count,negative count,0,0.0
+dns_aaaa_count,negative count,0,0.0
+dns_mx_count,negative count,0,0.0
+dns_mx_related_ip_count,negative count,0,0.0
+dns_ns_count,negative count,0,0.0
+dns_ns_related_ip_count,negative count,0,0.0
+dns_txt_count,negative count,0,0.0
+dns_ipv4_count,negative count,0,0.0
+dns_ipv6_count,negative count,0,0.0
+dns_unique_ip_count,negative count,0,0.0
+dns_source_count,negative count,0,0.0
+dns_ttl_information_count,negative count,0,0.0
+rdap_registrar_count,negative count,0,0.0
+rdap_registrant_count,negative count,0,0.0
+rdap_abuse_count,negative count,0,0.0
+rdap_admin_count,negative count,0,0.0
+rdap_technical_count,negative count,0,0.0
+rdap_noc_count,negative count,0,0.0
+rdap_nameserver_count,negative count,0,0.0
+rdap_status_count,negative count,0,0.0
+rdap_description_count,negative count,0,0.0
+tls_certificate_count,negative count,0,0.0
+tls_non_root_certificate_count,negative count,0,0.0
+tls_root_certificate_count,negative count,0,0.0
+tls_extension_count,negative count,0,0.0
+tls_critical_extension_count,negative count,0,0.0
+ip_record_count,negative count,0,0.0
+unique_ip_count,negative count,0,0.0
+ip_ipv4_count,negative count,0,0.0
+ip_ipv6_count,negative count,0,0.0
+ip_from_a_count,negative count,0,0.0
+ip_from_aaaa_count,negative count,0,0.0
+ip_from_cname_count,negative count,0,0.0
+ip_from_mx_count,negative count,0,0.0
+ip_from_ns_count,negative count,0,0.0
+ip_alive_count,negative count,0,0.0
+ip_rdap_available_count,negative count,0,0.0
+asn_count,negative count,0,0.0
+asn_organization_count,negative count,0,0.0
+country_count,negative count,0,0.0
+country_code_count,negative count,0,0.0
+rir_count,negative count,0,0.0

@@ -1,0 +1,53 @@
+{
+    "model": "LightGBM",
+    "analysis_type": "Domain intelligence feature importance and correlation analysis",
+    "research_feature_groups": [
+        "DNS",
+        "RDAP / WHOIS",
+        "TLS",
+        "IP / Hosting"
+    ],
+    "most_important_feature_by_gain": {
+        "feature": "dns_mx_count",
+        "feature_group": "DNS",
+        "gain_importance": 309862.66144776344,
+        "gain_percentage": 13.33363647953936
+    },
+    "most_important_feature_group": {
+        "group": "RDAP / WHOIS",
+        "gain_percentage": 48.473906051417146,
+        "split_percentage": 47.38
+    },
+    "strongest_feature_label_correlation": {
+        "feature": "dns_mx_related_ip_count",
+        "feature_group": "DNS",
+        "spearman_correlation": -0.47194092386946274
+    },
+    "feature_group_importance": [
+        {
+            "feature_group": "RDAP / WHOIS",
+            "gain_percentage": 48.473906051417146,
+            "split_percentage": 47.38
+        },
+        {
+            "feature_group": "DNS",
+            "gain_percentage": 27.811031284964034,
+            "split_percentage": 14.433333333333334
+        },
+        {
+            "feature_group": "TLS",
+            "gain_percentage": 15.433887198940525,
+            "split_percentage": 22.506666666666668
+        },
+        {
+            "feature_group": "IP / Hosting",
+            "gain_percentage": 8.140769957254571,
+            "split_percentage": 15.403333333333332
+        },
+        {
+            "feature_group": "Other",
+            "gain_percentage": 0.14040550742372537,
+            "split_percentage": 0.27666666666666667
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+# Python environment and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+.env
+
+# Datasets and big data files
+data/
+dataset/
+datasets/
+*.parquet
+*.sqlite
+*.sqlite3
+*.zip
+
+# C4 - Domain Intelligence
+# Raw dataset, processed arrays, feed snapshots, raw registry replies
+raw/
+processed/
+work/rdap_probe/
+work/new_domain_feed_*/
+work/domainradar_reference/
+*openphish*
+*phishtank*
+
+# C4 extra exclusions (private / phishing data / not part of component)
+work/
+outputs/
+results/live_*
+results/domain_test_*/
+results/rdap_alignment_*/
+results/selected_tuned80_*/
+results/rdap_controlled_audit.json
+results/confidence_meta_*.csv
+
+results/confidence_layer_test_predictions.csv

@@ -1,0 +1,67 @@
+{
+    "baseline_lightgbm": {
+        "model": "Original LightGBM",
+        "accuracy": 0.9528052303481831,
+        "precision": 0.9812546459390453,
+        "recall": 0.9232476813136689,
+        "f1_score": 0.9513677811550152,
+        "roc_auc": 0.9911451291422004,
+        "pr_auc": 0.9920947437130193,
+        "true_negative": 32305,
+        "false_positive": 580,
+        "false_negative": 2524,
+        "true_positive": 30361
+    },
+    "calibrated_lightgbm": {
+        "model": "Calibrated LightGBM",
+        "accuracy": 0.952896457351376,
+        "precision": 0.9468630922019863,
+        "recall": 0.959647255587654,
+        "f1_score": 0.953212311595735,
+        "roc_auc": 0.9911364798920423,
+        "pr_auc": 0.9917109946791658,
+        "true_negative": 31114,
+        "false_positive": 1771,
+        "false_negative": 1327,
+        "true_positive": 31558
+    },
+    "confidence_aware_hybrid": {
+        "model": "Confidence-Aware Hybrid LightGBM",
+        "accuracy": 0.9532157518625514,
+        "precision": 0.9804022692109334,
+        "recall": 0.9249201763722061,
+        "f1_score": 0.951853416576695,
+        "roc_auc": 0.9912687509554827,
+        "pr_auc": 0.9921832137133851,
+        "true_negative": 32277,
+        "false_positive": 608,
+        "false_negative": 2469,
+        "true_positive": 30416
+    },
+    "selected_confidence_model": "Gradient Confidence Layer",
+    "improvements": {
+        "accuracy_difference": 0.0004105215143682672,
+        "recall_difference": 0.0016724950585372822,
+        "f1_difference": 0.00048563542167978646
+    },
+    "recommended_for_live_detector": true,
+    "oof_folds": 5,
+    "confidence_features": [
+        "lightgbm_probability",
+        "calibrated_probability",
+        "prediction_uncertainty",
+        "dns_available",
+        "rdap_available",
+        "tls_available",
+        "ip_available",
+        "available_group_count",
+        "availability_fraction",
+        "missing_feature_count",
+        "missing_feature_fraction",
+        "important_feature_available_fraction",
+        "ood_score",
+        "probability_x_missing",
+        "probability_x_ood",
+        "probability_x_low_availability"
+    ]
+}

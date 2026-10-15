@@ -1,0 +1,37 @@
+{
+    "calibration_method": "Isotonic Regression",
+    "oof_folds": 5,
+    "classification_threshold": 0.5,
+    "original_lightgbm": {
+        "model": "Original LightGBM",
+        "accuracy": 0.9528052303481831,
+        "precision": 0.9812546459390453,
+        "recall": 0.9232476813136689,
+        "f1_score": 0.9513677811550152,
+        "roc_auc": 0.9911451291422004,
+        "pr_auc": 0.9920947437130193,
+        "true_negative": 32305,
+        "false_positive": 580,
+        "false_negative": 2524,
+        "true_positive": 30361
+    },
+    "calibrated_lightgbm": {
+        "model": "Calibrated LightGBM",
+        "accuracy": 0.952896457351376,
+        "precision": 0.9468630922019863,
+        "recall": 0.959647255587654,
+        "f1_score": 0.953212311595735,
+        "roc_auc": 0.9911364798920423,
+        "pr_auc": 0.9917109946791658,
+        "true_negative": 31114,
+        "false_positive": 1771,
+        "false_negative": 1327,
+        "true_positive": 31558
+    },
+    "changes": {
+        "accuracy_difference": 9.122700319286192e-05,
+        "recall_difference": 0.0363995742739851,
+        "f1_difference": 0.0018445304407198604,
+        "false_negative_reduction": 1197
+    }
+}

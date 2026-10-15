@@ -1,0 +1,5 @@
+actual_class,predicted_class,count
+Benign,Benign,32305
+Benign,Phishing,580
+Phishing,Benign,2524
+Phishing,Phishing,30361

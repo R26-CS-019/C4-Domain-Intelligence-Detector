@@ -9,6 +9,7 @@ import importlib.util
 import io
 import ipaddress
 import os
+import re
 import socket
 import sys
 import threading
@@ -50,6 +51,17 @@ def contract(status, message=None, score=None, label=None, evidence=None):
             "message": message, "evidence": evidence or {}}
 
 
+def strip_www(raw: str) -> str:
+    """Remove one leading www. from the host without rebuilding the URL."""
+    authority = re.match(r"(?:(?:[A-Za-z][A-Za-z0-9+.-]*:)?//)?(?:[^/?#]*@)?([^:/?#]+)", raw)
+    if authority:
+        host = authority.group(1)
+        if host.lower().startswith("www.") and "." in host[4:]:
+            start = authority.start(1)
+            return raw[:start] + raw[start + 4:]
+    return raw
+
+
 def resolves_only_public(host):
     """Refuse hosts that resolve to private/internal addresses (server safety)."""
     try:
@@ -79,7 +91,10 @@ def health():
 def analyze(body: AnalyzeRequest, x_api_key: str | None = Header(default=None)):
     if API_KEY and not hmac.compare_digest(x_api_key or "", API_KEY):
         raise HTTPException(401, "Missing or invalid X-API-Key.")
-    raw = (body.url or "").strip()
+    input_url = body.url or ""
+    original_raw = input_url.strip()
+    raw = strip_www(original_raw)
+    www_removed = raw != original_raw
     try:
         host = live.normalize_host(raw)
     except ValueError as e:
@@ -106,7 +121,9 @@ def analyze(body: AnalyzeRequest, x_api_key: str | None = Header(default=None)):
         gate.release()
     observed = sum(bool(live.nonmissing(features[name])) for name in names)
     evidence = {
-        "host": host, "model": label_name,
+        # Keep the submitted hostname for existing clients; analysed_url is the checked target.
+        "host": "www." + host if www_removed else host, "model": label_name,
+        "input_url": input_url, "analysed_url": raw, "www_removed": www_removed,
         "model_prediction": decision["model_prediction"],
         "decision_source": decision["decision_source"],
         "reputation": decision["reputation"],
